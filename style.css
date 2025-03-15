@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root {
     --Celeste: #5ac8f5;
     --Violeta: #9b59b6;
@@ -19,6 +20,14 @@
   
   body {
     background: var(--Grey-900);
+=======
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222222;
+>>>>>>> Styles
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,6 +36,7 @@
   
   .gameboard {
     display: flex;
+<<<<<<< HEAD
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -36,11 +46,22 @@
     background-color: var(--Grey-800);
     border-radius: 15px;
     padding: 20px;
+=======
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #333333;
+    border-radius: 15px;
+    padding: 20px;
+    width: 80%;
+    max-width: 500px;
+>>>>>>> Styles
   }
   
   .color {
     width: 80px;
     height: 80px;
+<<<<<<< HEAD
     border-radius: 8px;
     cursor: pointer;
     transition: transform 0.3s ease;
@@ -64,18 +85,44 @@
   
   .color:hover {
     transform: scale(1.1);
+=======
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  #celeste {
+    background-color: #5ac8f5;
+  }
+  
+  #violeta {
+    background-color: #9b59b6;
+  }
+  
+  #naranja {
+    background-color: #ff7f50;
+  }
+  
+  #verde {
+    background-color: #32cd32;
+>>>>>>> Styles
   }
   
   .btn-start {
     width: 100%;
     padding: 10px;
+<<<<<<< HEAD
     background-color: var(--Grey-700);
     color: var(--White);
+=======
+    background-color: #444444;
+    color: white;
+>>>>>>> Styles
     font-size: 18px;
     font-weight: bold;
     border: none;
     border-radius: 10px;
     cursor: pointer;
+<<<<<<< HEAD
     transition: background-color 0.3s ease;
   }
   
@@ -114,5 +161,11 @@
       width: 50%;
       font-size: 22px;
     }
+=======
+  }
+  
+  .btn-start:hover {
+    background-color: #5ac8f5;
+>>>>>>> Styles
   }
   
