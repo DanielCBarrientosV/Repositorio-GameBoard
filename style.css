@@ -1,0 +1,63 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .gameboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #333333;
+    border-radius: 15px;
+    padding: 20px;
+    width: 80%;
+    max-width: 500px;
+  }
+  
+  .color {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  #celeste {
+    background-color: #5ac8f5;
+  }
+  
+  #violeta {
+    background-color: #9b59b6;
+  }
+  
+  #naranja {
+    background-color: #ff7f50;
+  }
+  
+  #verde {
+    background-color: #32cd32;
+  }
+  
+  .btn-start {
+    width: 100%;
+    padding: 10px;
+    background-color: #444444;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .btn-start:hover {
+    background-color: #5ac8f5;
+  }
+  
